@@ -12,6 +12,7 @@
 *{
     font-weight:400;
 }
+                display: flex;
  
 body{
     color: var(--branco);
@@ -37,4 +38,129 @@ body{
     background:var(--fundo-senha);
     padding:24px;
     border-bottom: 6px solid var(-borda);
+}
+
+#campo-senha{
+background-color: var(--fundo-senha);
+border: nome
+color var(--branco);
+finte-family: var(--roboto-mono);
+font-size 40px;
+width 70%
+}
+
+#campo-senha{
+    outline nome;
+}
+
+.conteudo{
+    ma-width:1200p;
+    margin: 0 auto;
+    }
+
+    .parametro{
+        background-color var(--fundo-texto);
+        border: 2x solid var(--borda)
+        margin-top 32px;
+        padding 24px;
+    }
+
+.parametro-titulo{
+    font-family: var(--ronoto-mono)
+    font-size: 28px;
+}
+
+.parametro-senha_titulo{
+    font-size 24px;
+}
+
+.parametro-coluna_senha{
+    display: flex;
+    flex-direction column;
+    justify-content: center;
+
+}
+
+.parametro-senha{
+    width 50%;
+    justify-content: cener;
+
+}
+
+
+.parametro-senha_botoes{
+    display flex;
+    justify-content: center;
+}
+
+>parametro-senha_botao{
+    background-color: var(--fundo_texto);
+    color var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.parametro-senhas__texto{
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+    font-size: 24px;
+
+}
+
+label{
+    funt-sie: 20px;
+
+}
+
+>checkbox{
+    width: 20px;
+    hight: 20px;
+    cursor: pointer;
+    }
+
+    >barra{
+        background-color: var(--fundo-senha)
+        hight: 30%
+        width: 100%
+    }
+
+    .forca{
+        hight: 30px;
+        position relative;
+        bottom: 30px;
+    
+    
+    }
+
+
+
+    .fraca{
+        width: 25%;
+        background_color: #e71b32;
+
+    }
+    .media(
+        background-color: #faf408;
+        width 50%;
+            )
+
+            .forte{
+                background-color: #00ff85;
+                width 100%
+            }
+
+            .parametro-senha-textos{
+                display: flex;
+                justify-content: space-between;
+
+            }
+
+@media screen and(min-width: 768px)
+{.parametro-coluna__senha{
+    flex-direction: row;
+    }
 }
